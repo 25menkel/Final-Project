@@ -10,3 +10,7 @@ for (let i = 0; i < secret.length; i++) {
         guessed.push("_");
     }
 }
+
+let strikes = 0;
+let maxStrikes = 6;
+let usedLetters = [];
